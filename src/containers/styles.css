@@ -1,11 +1,11 @@
 .main-page-container {
     display: flex;
-    margin: 2em;
+    margin: 5em;
 }
 
 .main-page-text {
-    margin-left: 9em;
-    margin-right: 10em;
+    margin: auto;
+    margin-right: 5vh;
     display: flex;
     margin-top: 20vh;
     display: flex;
@@ -17,13 +17,20 @@
 .main-page-text h1 {
     font-size: 6.2em;
     line-height: 1;
+    max-width: 584px;
 }
 
 .main-page-text p {
+    max-width: 400px;
     line-height: 1.8;
     margin-top: 0;
+    font-weight: 500;
+    color: #6C6C6C;
+    font-size: 18px;
 }
+
 .main-page-image {
+    margin: auto;
     height: 80vh;
 }
 .client-image-wrapper {
@@ -34,4 +41,16 @@
 .client-image {
     height: 1.5em;
     padding-right: 2.5em;
+}
+
+.learn-more-button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    border-width: 1.5px;
+    font-size: 15px;
+    font-weight: bold;
 }

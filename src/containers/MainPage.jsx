@@ -15,7 +15,7 @@ function MainPage() {
                 <h1>Make remote work</h1>
                 <p>Get your team in sync, no matter your location. <br /><span>Streamline processes. create team rituals, and watch productivity soar.</span></p>
                 
-                <button>
+                <button className='learn-more-button'>
                     Learn more
                 </button>
                 <div>
