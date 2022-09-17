@@ -2,6 +2,11 @@ import React from 'react';
 import './styles.css';
 import heroImageDesktop from '../assets/images/image-hero-desktop.png';
 import heroImageMobile from '../assets/images/image-hero-mobile.png';
+import clientDatabiz from '../assets/images/client-databiz.svg';
+import clientAudiophile from '../assets/images/client-audiophile.svg';
+import clientMeet from '../assets/images/client-meet.svg';
+import clientMarker from '../assets/images/client-maker.svg';
+
 function MainPage() {
   return (
     <>  
@@ -13,6 +18,14 @@ function MainPage() {
                 <button>
                     Learn more
                 </button>
+                <div>
+                    <div className='client-image-wrapper'>
+                        <img className='client-image' src={clientDatabiz}/>
+                        <img className='client-image' src={clientAudiophile}/>
+                        <img className='client-image' src={clientMeet}/>
+                        <img className='client-image' src={clientMarker}/>
+                    </div>
+                </div>
             </div>
             <img className='main-page-image' src={heroImageDesktop}/>
         </div>

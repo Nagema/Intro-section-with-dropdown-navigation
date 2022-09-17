@@ -26,3 +26,12 @@
 .main-page-image {
     height: 80vh;
 }
+.client-image-wrapper {
+    margin-top: 4em;
+    display: flex;
+}
+
+.client-image {
+    height: 1.5em;
+    padding-right: 2.5em;
+}
