@@ -1,0 +1,33 @@
+.App-logo {
+    height: 2.5vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    display: flex;
+    padding-top: 1em;
+    font-size: calc(8px + 1.5vmin);
+    color: white;
+    padding-left: 1em;
+  }
+  .App-header nav div{
+      display: flex;  
+  }
+  .menu-links {
+      display: flex;     
+  }
+  .menu-login {
+      display: flex;
+  }
+  
+  .links {
+    color: rgba(0,0,0,.55);
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+} 
+.links:hover {
+    color: rgba(0,0,0,.7);
+}

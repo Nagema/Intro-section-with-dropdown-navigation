@@ -1,0 +1,28 @@
+.main-page-container {
+    display: flex;
+    margin: 2em;
+}
+
+.main-page-text {
+    margin-left: 9em;
+    margin-right: 10em;
+    display: flex;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.main-page-text h1 {
+    font-size: 6.2em;
+    line-height: 1;
+}
+
+.main-page-text p {
+    line-height: 1.8;
+    margin-top: 0;
+}
+.main-page-image {
+    height: 80vh;
+}
