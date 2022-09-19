@@ -50,19 +50,19 @@ function NavBar() {
                 <ul className='list-option'>
                     <li>
                         <img className='list-icon' src={iconTodo} alt="icon todo" /> 
-                        <span> Todo List </span> 
+                        <span>Todo List</span> 
                     </li>
                     <li>
                         <img className='list-icon' src={iconCalendar} alt="icon todo" /> 
-                        <span> Calendar </span>
+                        <span>Calendar</span>
                     </li>
                     <li>
                         <img className='list-icon' src={iconReminders} alt="icon todo" /> 
-                        <span> Reminders </span>
+                        <span>Reminders</span>
                     </li>
                     <li>
                         <img className='list-icon' src={iconPlanning} alt="icon todo" /> 
-                        <span> Planning </span>
+                        <span>Planning</span>
                     </li>
                 </ul>
             </div>
@@ -70,15 +70,9 @@ function NavBar() {
         { iconCompanyToggle &&
             <div className='company-options'>
                 <ul className='list-option'>
-                    <li>
-                        History
-                    </li>
-                    <li>
-                        Our Team
-                    </li>
-                    <li>
-                       Blog
-                    </li>
+                    <li>History</li>
+                    <li>Our Team</li>
+                    <li>Blog</li>
                 </ul>
             </div>
         }
