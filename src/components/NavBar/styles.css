@@ -1,36 +1,104 @@
 .App-logo {
     height: 2.5vmin;
-    pointer-events: none;
   }
 
   .App-header {
     display: flex;
+    position: absolute;
     padding-top: 1em;
-    font-size: calc(8px + 1.5vmin);
-    color: white;
     padding-left: 1em;
+    line-height: 1;
+    width: 100%;
   }
   .App-header nav div{
       display: flex;  
   }
 
   .menu-links {
-      display: flex;     
+      display: flex; 
   }
 
   .menu-login {
-      display: flex;
+    margin-right: 3em;
+  }
+
+  .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 1.5;
   }
 
   .links {
-    color: rgba(0,0,0,.55);
+    color: #ADADAD;
+    font-size: 18px;
     text-decoration: none;
     display: block;
     padding: 0.5rem 1rem;
     padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 1.5rem;
+} 
+.links:hover{
+    color: rgba(0,0,0,.7);
+}
+.link-icon {
+    padding-bottom: 2px;
+}
+
+.main-links {
+    padding-left: 2em;
+}
+
+.feature-options {
+    position: relative;
+    color: #ADADAD;
+    top: 45px;
+    left: -60em;
+    width: 14vh;
+    border-radius: 12px;
+    text-align: left; 
+    background-color: white;
 } 
 
-.links:hover {
+.list-option {
+    list-style: none;
+    font-size: 17px;
+    padding-left: 0;
+    margin: 25px;
+} 
+
+.list-option li {
+    margin-bottom: 15px;
+}
+
+.list-icon {
+    padding-right: 10px;
+}
+.company-options {
+    position: relative;
+    color: #ADADAD;
+    top: 45px;
+    left: -21em;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 12px;
+    text-align: left; 
+    background-color: white;
+}
+
+.register-button{
+    width: 8rem;
+    color: #ADADAD;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 120px;
+    height: 49px;
+    margin-left: 2em;
+    background-color: rgb(247, 247, 247);
+    border-width: 1.5px;
+    cursor: pointer;
+}
+.register-button:hover {
     color: rgba(0,0,0,.7);
+    font-weight: bold;
 }

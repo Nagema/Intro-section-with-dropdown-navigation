@@ -12,11 +12,10 @@ function App() {
         <Routes>
           <Route 
             path='/' 
+            element={<MainPage />}
           >
-          </Route>
-         
+          </Route> 
         </Routes>
-        <MainPage></MainPage>
       </BrowserRouter>
     </div>
   );
