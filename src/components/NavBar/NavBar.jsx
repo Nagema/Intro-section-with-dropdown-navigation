@@ -33,7 +33,7 @@ function NavBar() {
                     <Link className='links' to="/" onClick={handleFeatureLink}>
                         Features <img className='link-icon' src={iconFeatureToggle ? iconArrowUp : iconArrowDown}/>
                     </Link> 
-                    <Link className='links link-feature' to="/" onClick={handleCompanyLink}>
+                    <Link className='links' to="/" onClick={handleCompanyLink}>
                         Company <img className='link-icon' src={iconCompanyToggle ? iconArrowUp : iconArrowDown}/>
                     </Link>
                     <Link className='links' to="/">Careers</Link> 
