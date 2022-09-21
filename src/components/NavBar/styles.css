@@ -1,12 +1,11 @@
 .App-logo {
-    height: 2.5vmin;
+    margin-left: 25px;
+    height: 2.5vh;
   }
 
   .App-header {
     display: flex;
-    position: absolute;
-    padding-top: 2em;
-    padding-left: 1em;
+    padding-top: 1.5em;
     line-height: 1;
     width: 100%;
   }
@@ -23,11 +22,14 @@
   }
 
   .links-wrapper {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     width: 100%;
     line-height: 1.5;
+  }
+
+  .link-arrow-wrapper {
+    position: relative;
   }
 
   .links {
@@ -52,9 +54,9 @@
 }
 
 .feature-options {
-    position: relative;
+    position: absolute;
     color: #ADADAD;
-    left: 5%;
+    left: -70%;
     top: 4vh;
     width: 14vh;
     border-radius: 12px;
@@ -80,10 +82,10 @@
 .company-options {
     position: absolute;
     color: #ADADAD;
-    left: 19%;
-    top: 6.5vh;
+    left: 20%;
+    top: 4vh;
     width: 10vh;
-    height: 10vh;
+    height: 12vh;
     border-radius: 12px;
     text-align: left; 
     background-color: white;

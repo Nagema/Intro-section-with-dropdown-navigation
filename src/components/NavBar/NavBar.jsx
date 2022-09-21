@@ -30,12 +30,47 @@ function NavBar() {
                     <img src={logo} className="App-logo" alt="logo" /> 
                 </Link>
                 <div className='main-links'>
-                    <Link className='links' to="/" onClick={handleFeatureLink}>
-                        Features <img className='link-icon' src={iconFeatureToggle ? iconArrowUp : iconArrowDown}/>
-                    </Link> 
-                    <Link className='links' to="/" onClick={handleCompanyLink}>
-                        Company <img className='link-icon' src={iconCompanyToggle ? iconArrowUp : iconArrowDown}/>
-                    </Link>
+                    <div className='link-arrow-wrapper'>
+                        <Link className='links' to="/" onClick={handleFeatureLink}>
+                            Features <img className='link-icon' src={iconFeatureToggle ? iconArrowUp : iconArrowDown}/>     
+                        </Link> 
+                        { iconFeatureToggle &&
+                                <div className='feature-options'>
+                                    <ul className='list-option'>
+                                        <li>
+                                            <img className='list-icon' src={iconTodo} alt="icon todo" /> 
+                                            <span>Todo List</span> 
+                                        </li>
+                                        <li>
+                                            <img className='list-icon' src={iconCalendar} alt="icon todo" /> 
+                                            <span>Calendar</span>
+                                        </li>
+                                        <li>
+                                            <img className='list-icon' src={iconReminders} alt="icon todo" /> 
+                                            <span>Reminders</span>
+                                        </li>
+                                        <li>
+                                            <img className='list-icon' src={iconPlanning} alt="icon todo" /> 
+                                            <span>Planning</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            }
+                    </div>
+                    <div className='link-arrow-wrapper'>
+                        <Link className='links' to="/" onClick={handleCompanyLink}>
+                            Company <img className='link-icon' src={iconCompanyToggle ? iconArrowUp : iconArrowDown}/>   
+                        </Link>
+                        { iconCompanyToggle &&
+                            <div className='company-options'>
+                                <ul className='list-option'>
+                                    <li>History</li>
+                                    <li>Our Team</li>
+                                    <li>Blog</li>
+                                </ul>
+                            </div>
+                        }
+                    </div>
                     <Link className='links' to="/">Careers</Link> 
                     <Link className='links' to="/">About</Link>          
                 </div>
@@ -45,37 +80,6 @@ function NavBar() {
                 <button className='register-button'>Register</button>
             </div>   
         </nav>
-        { iconFeatureToggle &&
-            <div className='feature-options'>
-                <ul className='list-option'>
-                    <li>
-                        <img className='list-icon' src={iconTodo} alt="icon todo" /> 
-                        <span>Todo List</span> 
-                    </li>
-                    <li>
-                        <img className='list-icon' src={iconCalendar} alt="icon todo" /> 
-                        <span>Calendar</span>
-                    </li>
-                    <li>
-                        <img className='list-icon' src={iconReminders} alt="icon todo" /> 
-                        <span>Reminders</span>
-                    </li>
-                    <li>
-                        <img className='list-icon' src={iconPlanning} alt="icon todo" /> 
-                        <span>Planning</span>
-                    </li>
-                </ul>
-            </div>
-        }
-        { iconCompanyToggle &&
-            <div className='company-options'>
-                <ul className='list-option'>
-                    <li>History</li>
-                    <li>Our Team</li>
-                    <li>Blog</li>
-                </ul>
-            </div>
-        }
       </header>
   )
 }
