@@ -8,11 +8,14 @@ import iconTodo from '../../assets/images/icon-todo.svg';
 import iconCalendar from '../../assets/images/icon-calendar.svg';
 import iconReminders from '../../assets/images/icon-reminders.svg';
 import iconPlanning from '../../assets/images/icon-planning.svg';
+import iconMenu from '../../assets/images/icon-menu.svg';
+import iconClose from '../../assets/images/icon-close-menu.svg';
 
 function NavBar() {
 
-    const [iconFeatureToggle, setIconFeatureToggle] = useState(false)
-    const [iconCompanyToggle, setIconCompanyToggle] = useState(false)
+    const [iconFeatureToggle, setIconFeatureToggle] = useState(false);
+    const [iconCompanyToggle, setIconCompanyToggle] = useState(false);
+    const [menuIcon, setMenuIconToggle] = useState(true);
 
     const handleFeatureLink = () => {
         setIconFeatureToggle(!iconFeatureToggle)
@@ -22,13 +25,20 @@ function NavBar() {
         setIconCompanyToggle(!iconCompanyToggle)
     }
 
+    const handleMenuIcon = () => {
+        setMenuIconToggle(!menuIcon)
+    }
+
   return (
     <header className="App-header">
         <Link className='links' to="/">
             <img src={logo} className="App-logo" alt="logo" /> 
         </Link>
         <nav className='links-wrapper'>   
-            <div className='menu-links'>       
+            <div className='menu-links'>
+                <button className='close-button' onClick={handleMenuIcon}>
+                    <img src={ menuIcon ? iconMenu : iconClose} alt="close icon" />
+                </button>    
                 <div className='main-links'>
                     <div className='link-arrow-wrapper'>
                         <Link className='links' to="/" onClick={handleFeatureLink}>

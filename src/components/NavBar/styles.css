@@ -21,6 +21,12 @@
     line-height: 1.5;
   }
 
+  .close-button {
+    visibility: visible;
+    background-color: transparent;
+    border: none;
+  }
+
 @media (min-width: 1023px) {
     .App-header nav div{
         display: flex; 
@@ -38,7 +44,9 @@
         margin-right: 3em;
         margin-top: 0;
       }
-    
+    .close-button{
+        visibility: hidden;
+    }
 }
 
   .link-arrow-wrapper {
