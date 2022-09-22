@@ -1,6 +1,5 @@
 .App-logo {
     margin-left: 0;
-    height: 2.5vh;
   }
 
   .App-header {
@@ -11,10 +10,6 @@
   }
   .App-header nav div{
       display: flex;  
-  }
-
-  .menu-links {
-      display: flex; 
   }
 
   .menu-login {
@@ -58,7 +53,7 @@
     color: #ADADAD;
     left: -45%;
     top: 4vh;
-    width: 14vh;
+    width: 11em;
     border-radius: 12px;
     text-align: left; 
     background-color: white;
@@ -84,8 +79,8 @@
     color: #ADADAD;
     left: 25%;
     top: 4vh;
-    width: 10vh;
-    height: 12vh;
+    width: 8em;
+    height: 10em;
     border-radius: 12px;
     text-align: left; 
     background-color: white;

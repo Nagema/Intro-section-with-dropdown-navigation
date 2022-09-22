@@ -7,10 +7,8 @@
 }
 
 .main-page-text {
-    display: flex;
     margin-top: 15.5vh;
     margin-right: 5em;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;

@@ -24,11 +24,11 @@ function NavBar() {
 
   return (
     <header className="App-header">
+        <Link className='links' to="/">
+            <img src={logo} className="App-logo" alt="logo" /> 
+        </Link>
         <nav className='links-wrapper'>   
-            <div className='menu-links'>
-                <Link className='links' to="/">
-                    <img src={logo} className="App-logo" alt="logo" /> 
-                </Link>
+            <div className='menu-links'>       
                 <div className='main-links'>
                     <div className='link-arrow-wrapper'>
                         <Link className='links' to="/" onClick={handleFeatureLink}>
