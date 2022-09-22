@@ -1,5 +1,5 @@
 .App-logo {
-    margin-left: 25px;
+    margin-left: 0;
     height: 2.5vh;
   }
 
@@ -39,7 +39,7 @@
     display: block;
     padding: 0.5rem 1rem;
     padding-right: 0.5rem;
-    padding-left: 1.5rem;
+    padding-left: 2.5rem;
 } 
 .links:hover{
     color: rgba(0,0,0,.7);
@@ -50,13 +50,13 @@
 }
 
 .main-links {
-    padding-left: 2em;
+    padding-left: 1.5em;
 }
 
 .feature-options {
     position: absolute;
     color: #ADADAD;
-    left: -70%;
+    left: -45%;
     top: 4vh;
     width: 14vh;
     border-radius: 12px;
@@ -82,7 +82,7 @@
 .company-options {
     position: absolute;
     color: #ADADAD;
-    left: 20%;
+    left: 25%;
     top: 4vh;
     width: 10vh;
     height: 12vh;

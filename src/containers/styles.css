@@ -25,12 +25,12 @@
 }
 
 .main-page-text p {
-    max-width: 400px;
-    line-height: 1.8;
+    max-width: 450px;
+    line-height: 1.5;
     margin-top: 1em;
     font-weight: 500;
     color: #6C6C6C;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .main-page-image {
@@ -50,11 +50,11 @@
 
 .learn-more-button {
     color: #ffff;
-    margin-top: 3em;
-    margin-bottom: 2em;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
     border-radius: 15px;
-    width: 150px;
-    height: 49px;
+    width: 160px;
+    height: 60px;
     background-color: rgb(0, 0, 0);
     border-width: 1.5px;
     font-size: 18px;
