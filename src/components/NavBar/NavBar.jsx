@@ -71,13 +71,21 @@ function NavBar() {
                             </div>
                         }
                     </div>
-                    <Link className='links' to="/">Careers</Link> 
-                    <Link className='links' to="/">About</Link>          
+                    <div>
+                        <Link className='links' to="/">Careers</Link> 
+                    </div>
+                    <div>
+                        <Link className='links' to="/">About</Link>          
+                    </div>
                 </div>
             </div>
             <div className='menu-login'>
-                <Link className='links' to="/">Login</Link>
-                <button className='register-button'>Register</button>
+                <div>
+                    <Link className='links' to="/">Login</Link>
+                </div>
+                <div>
+                    <button className='register-button'>Register</button>
+                </div>
             </div>   
         </nav>
       </header>
