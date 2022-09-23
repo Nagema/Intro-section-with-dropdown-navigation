@@ -1,0 +1,24 @@
+.list-icon {
+    padding-right: 10px;
+}
+.list-option {
+    list-style: none;
+    font-size: 17px;
+    padding-left: 0;
+    margin: 25px;
+} 
+
+.list-option li {
+    margin-bottom: 15px;
+}
+.feature-options {
+    position: absolute;
+    color: #ADADAD;
+    left: -45%;
+    top: 4vh;
+    width: 11em;
+    border-radius: 12px;
+    text-align: left; 
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(167, 165, 165, 0.2), 0 6px 20px 0 rgba(168, 165, 165, 0.19);
+} 

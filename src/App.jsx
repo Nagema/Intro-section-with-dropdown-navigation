@@ -1,14 +1,14 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
+import NavBar from './containers/NavBar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import MainPage from './containers/MainPage';
+import MainPage from './containers/MainPage/MainPage';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
        
-        <NavBar></NavBar>   
+        <NavBar/>  
         <Routes>
           <Route 
             path='/' 

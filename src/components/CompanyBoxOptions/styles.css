@@ -1,0 +1,22 @@
+.list-option {
+    list-style: none;
+    font-size: 17px;
+    padding-left: 0;
+    margin: 25px;
+} 
+
+.list-option li {
+    margin-bottom: 15px;
+}
+.company-options {
+    position: absolute;
+    color: #ADADAD;
+    left: 25%;
+    top: 4vh;
+    width: 8em;
+    height: 10em;
+    border-radius: 12px;
+    text-align: left; 
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(167, 165, 165, 0.2), 0 6px 20px 0 rgba(168, 165, 165, 0.19);
+}

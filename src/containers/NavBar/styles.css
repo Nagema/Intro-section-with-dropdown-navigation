@@ -1,0 +1,62 @@
+.App-logo {
+margin-left: 0;
+}
+
+.App-header {
+display: flex;
+padding-top: 1.5em;
+line-height: 1;
+width: 100%;
+justify-content: space-between;
+}
+
+.links-wrapper {
+justify-content: space-between;
+line-height: 1.5;
+}
+
+.toggle-button {
+    visibility: visible;
+    background-color: transparent;
+    border: none;
+    margin-right: 2em;
+}
+.link-arrow-wrapper {
+    position: relative;
+    padding-top: 1em;
+}
+
+.links {
+    color:#6C6C6C;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 2.5rem;
+    margin-bottom: 100px;
+} 
+.links:hover{
+    color: rgba(0,0,0,.7);
+    font-weight: 600;
+}
+
+@media (min-width: 1023px) {
+    .App-header nav div{
+        display: flex; 
+    }
+    .links-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        line-height: 1.5;
+    }
+    .toggle-button {
+        visibility: hidden;
+    }
+    .links {
+        color:#6C6C6C;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        padding-right: 0.5rem;
+        padding-left: 2.5rem;
+    } 
+}
